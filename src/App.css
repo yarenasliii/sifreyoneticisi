@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* ===== GOOGLE MATERIAL DESIGN 3 - PROFESSIONAL STYLE ===== */
 
 :root {
@@ -53,41 +52,12 @@
   --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.15);
   --shadow-md: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
   --shadow-lg: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
-=======
-:root {
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8f9fa;
-  --bg-card: #ffffff;
-  --text-primary: #202124;
-  --text-secondary: #5f6368;
-  --border-color: #dadce0;
-  --accent-color: #1a73e8;
-  --accent-light: #e8f0fe;
-  --danger-color: #d93025;
-  --success-color: #188038;
-  --warning-color: #f2994a;
-}
-
-[data-theme='dark'] {
-  --bg-primary: #202124;
-  --bg-secondary: #2f3033;
-  --bg-card: #2d2e30;
-  --text-primary: #e8eaed;
-  --text-secondary: #9aa0a6;
-  --border-color: #5f6368;
-  --accent-color: #8ab4f8;
-  --accent-light: #2a3b53;
-  --danger-color: #f28b82;
-  --success-color: #81c995;
-  --warning-color: #fddc63;
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -132,59 +102,22 @@ body {
 }
 
 /* ===== HEADER ===== */
-=======
-  font-family: 'Roboto', 'Segoe UI', sans-serif;
-  -webkit-tap-highlight-color: transparent;
-}
-
-body {
-  background-color: var(--bg-secondary);
-  color: var(--text-primary);
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-}
-
-/* Mobil Ekran Simülatörü ve Gerçek Mobil Uyumu */
-.mobile-container {
-  width: 100%;
-  max-width: 480px;
-  background-color: var(--bg-primary);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  box-shadow: 0 0 20px rgba(0,0,0,0.05);
-  padding-bottom: 70px; /* Bottom nav için alan */
-}
-
-/* Header */
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 .app-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-<<<<<<< HEAD
   padding: 12px 16px;
-=======
-  padding: 16px;
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
   border-bottom: 1px solid var(--border-color);
   background-color: var(--bg-primary);
   position: sticky;
   top: 0;
-<<<<<<< HEAD
   z-index: 100;
   flex-shrink: 0;
-=======
-  z-index: 10;
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .logo-area {
   display: flex;
   align-items: center;
-<<<<<<< HEAD
   gap: 12px;
   font-weight: 500;
   font-size: 18px;
@@ -194,11 +127,6 @@ body {
 
 .logo-area svg {
   flex-shrink: 0;
-=======
-  gap: 10px;
-  font-weight: 500;
-  font-size: 18px;
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .theme-toggle {
@@ -208,7 +136,6 @@ body {
   cursor: pointer;
   padding: 8px;
   border-radius: 50%;
-<<<<<<< HEAD
   transition: all 0.2s ease;
   display: flex;
   align-items: center;
@@ -251,24 +178,11 @@ body {
 }
 
 /* ===== SEARCH BOX ===== */
-=======
-}
-
-/* Ana İçerik Alanı */
-.content {
-  padding: 16px;
-  flex: 1;
-  overflow-y: auto;
-}
-
-/* Arama ve Filtreler */
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 .search-box {
   display: flex;
   align-items: center;
   background-color: var(--bg-secondary);
   border: 1px solid var(--border-color);
-<<<<<<< HEAD
   padding: 10px 16px;
   border-radius: 24px;
   gap: 12px;
@@ -285,12 +199,6 @@ body {
 .search-box svg {
   flex-shrink: 0;
   color: var(--text-tertiary);
-=======
-  padding: 10px 14px;
-  border-radius: 8px;
-  gap: 10px;
-  margin-bottom: 16px;
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .search-box input {
@@ -300,7 +208,6 @@ body {
   outline: none;
   color: var(--text-primary);
   font-size: 15px;
-<<<<<<< HEAD
   line-height: 1.4;
 }
 
@@ -309,21 +216,13 @@ body {
 }
 
 /* ===== CATEGORIES ===== */
-=======
-}
-
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 .categories {
   display: flex;
   gap: 8px;
   overflow-x: auto;
   padding-bottom: 8px;
-<<<<<<< HEAD
   margin-bottom: 24px;
   scroll-behavior: smooth;
-=======
-  margin-bottom: 16px;
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .categories::-webkit-scrollbar {
@@ -331,7 +230,6 @@ body {
 }
 
 .category-chip {
-<<<<<<< HEAD
   padding: 8px 16px;
   border-radius: 20px;
   background-color: var(--bg-secondary);
@@ -348,61 +246,34 @@ body {
 .category-chip:hover {
   background-color: var(--bg-tertiary);
   border-color: var(--text-tertiary);
-=======
-  padding: 6px 16px;
-  border-radius: 16px;
-  background-color: var(--bg-secondary);
-  border: 1px solid var(--border-color);
-  font-size: 13px;
-  white-space: nowrap;
-  cursor: pointer;
-  color: var(--text-secondary);
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .category-chip.active {
   background-color: var(--accent-light);
   color: var(--accent-color);
   border-color: var(--accent-color);
-<<<<<<< HEAD
   font-weight: 600;
   box-shadow: 0 1px 3px rgba(26, 115, 232, 0.2);
 }
 
 /* ===== SECURITY CARD ===== */
-=======
-}
-
-/* Güvenlik Puanı */
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 .security-card {
   background-color: var(--bg-secondary);
   border-radius: 12px;
   padding: 16px;
-<<<<<<< HEAD
   margin-bottom: 24px;
   border: 1px solid var(--border-color);
   box-shadow: var(--shadow-sm);
-=======
-  margin-bottom: 20px;
-  border: 1px solid var(--border-color);
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .security-header {
   display: flex;
   justify-content: space-between;
-<<<<<<< HEAD
   align-items: center;
   margin-bottom: 12px;
   font-size: 14px;
   font-weight: 500;
   color: var(--text-primary);
-=======
-  margin-bottom: 8px;
-  font-size: 14px;
-  font-weight: 500;
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .progress-bar {
@@ -414,7 +285,6 @@ body {
 
 .progress-fill {
   height: 100%;
-<<<<<<< HEAD
   transition: width 0.3s ease;
   border-radius: 4px;
 }
@@ -431,20 +301,6 @@ body {
 }
 
 /* ===== PASSWORD LIST ===== */
-=======
-  transition: width 0.3s;
-}
-
-/* Şifre Kartları */
-.section-title {
-  font-size: 14px;
-  color: var(--text-secondary);
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 .password-list {
   display: flex;
   flex-direction: column;
@@ -455,7 +311,6 @@ body {
   background-color: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: 12px;
-<<<<<<< HEAD
   padding: 12px 16px;
   display: flex;
   justify-content: space-between;
@@ -468,24 +323,14 @@ body {
   box-shadow: var(--shadow-md);
   border-color: var(--border-light);
   transform: translateY(-1px);
-=======
-  padding: 14px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: transform 0.2s;
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .card-info {
   display: flex;
   align-items: center;
   gap: 12px;
-<<<<<<< HEAD
   flex: 1;
   min-width: 0;
-=======
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .card-icon-wrapper {
@@ -497,48 +342,33 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-<<<<<<< HEAD
   font-weight: 600;
   font-size: 16px;
   flex-shrink: 0;
-=======
-  font-weight: bold;
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .site-name {
   font-weight: 500;
-<<<<<<< HEAD
   font-size: 15px;
   color: var(--text-primary);
   margin-bottom: 4px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-=======
-  font-size: 16px;
-  margin-bottom: 2px;
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .user-name {
   font-size: 13px;
   color: var(--text-secondary);
-<<<<<<< HEAD
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-=======
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .card-actions {
   display: flex;
   gap: 4px;
-<<<<<<< HEAD
   flex-shrink: 0;
-=======
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .action-btn {
@@ -548,18 +378,14 @@ body {
   color: var(--text-secondary);
   cursor: pointer;
   border-radius: 50%;
-<<<<<<< HEAD
   transition: all 0.2s ease;
   display: flex;
   align-items: center;
   justify-content: center;
-=======
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .action-btn:hover {
   background-color: var(--bg-secondary);
-<<<<<<< HEAD
   color: var(--accent-color);
   transform: scale(1.1);
 }
@@ -571,18 +397,10 @@ body {
 /* ===== FORM GROUPS ===== */
 .form-group {
   margin-bottom: 20px;
-=======
-}
-
-/* Form Tasarımı (Ekleme / Düzenleme) */
-.form-group {
-  margin-bottom: 16px;
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .form-group label {
   display: block;
-<<<<<<< HEAD
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.3px;
@@ -595,23 +413,11 @@ body {
 .form-group select {
   width: 100%;
   padding: 12px 16px;
-=======
-  font-size: 13px;
-  font-weight: 500;
-  margin-bottom: 6px;
-  color: var(--text-secondary);
-}
-
-.form-group input, .form-group select {
-  width: 100%;
-  padding: 12px;
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
   border-radius: 8px;
   border: 1px solid var(--border-color);
   background-color: var(--bg-primary);
   color: var(--text-primary);
   font-size: 15px;
-<<<<<<< HEAD
   line-height: 1.4;
   outline: none;
   transition: all 0.2s ease;
@@ -641,15 +447,6 @@ body {
 }
 
 /* ===== PASSWORD INPUT CONTAINER ===== */
-=======
-  outline: none;
-}
-
-.form-group input:focus {
-  border-color: var(--accent-color);
-}
-
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 .password-input-container {
   position: relative;
   display: flex;
@@ -667,7 +464,6 @@ body {
   border: none;
   color: var(--text-secondary);
   cursor: pointer;
-<<<<<<< HEAD
   padding: 8px;
   transition: all 0.2s ease;
   display: flex;
@@ -702,16 +498,10 @@ body {
 }
 
 /* ===== GENERATOR BOX ===== */
-=======
-}
-
-/* Şifre Üretici */
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 .generator-box {
   background-color: var(--bg-secondary);
   padding: 12px;
   border-radius: 8px;
-<<<<<<< HEAD
   margin-top: 12px;
   border: 1px solid var(--border-color);
 }
@@ -720,15 +510,6 @@ body {
 .btn {
   width: 100%;
   padding: 12px 24px;
-=======
-  margin-top: 8px;
-  border: 1px dashed var(--border-color);
-}
-
-.btn {
-  width: 100%;
-  padding: 14px;
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
   border-radius: 8px;
   border: none;
   font-size: 15px;
@@ -738,17 +519,13 @@ body {
   justify-content: center;
   align-items: center;
   gap: 8px;
-<<<<<<< HEAD
   transition: all 0.2s ease;
   box-shadow: var(--shadow-sm);
-=======
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .btn-primary {
   background-color: var(--accent-color);
   color: white;
-<<<<<<< HEAD
   margin-top: 8px;
 }
 
@@ -761,15 +538,12 @@ body {
 .btn-primary:active {
   transform: translateY(0);
   box-shadow: var(--shadow-sm);
-=======
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .btn-secondary {
   background-color: transparent;
   border: 1px solid var(--border-color);
   color: var(--text-primary);
-<<<<<<< HEAD
   margin-top: 8px;
   box-shadow: none;
 }
@@ -785,12 +559,6 @@ body {
 }
 
 /* ===== SETTINGS ITEMS ===== */
-=======
-  margin-top: 10px;
-}
-
-/* Ayarlar Sayfası */
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 .settings-item {
   display: flex;
   justify-content: space-between;
@@ -799,7 +567,6 @@ body {
   border-bottom: 1px solid var(--border-color);
 }
 
-<<<<<<< HEAD
 .settings-item:last-child {
   border-bottom: none;
 }
@@ -820,8 +587,6 @@ body {
   color: var(--text-secondary);
 }
 
-=======
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 .file-input-label {
   display: flex;
   align-items: center;
@@ -829,7 +594,6 @@ body {
   cursor: pointer;
   color: var(--accent-color);
   font-weight: 500;
-<<<<<<< HEAD
   transition: all 0.2s ease;
   padding: 8px;
 }
@@ -840,11 +604,6 @@ body {
 }
 
 /* ===== BOTTOM NAVIGATION ===== */
-=======
-}
-
-/* Alt Navigasyon (Bottom Navigation) */
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 .bottom-nav {
   position: absolute;
   bottom: 0;
@@ -856,26 +615,18 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-<<<<<<< HEAD
   z-index: 100;
-=======
-  z-index: 10;
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .nav-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-<<<<<<< HEAD
   justify-content: center;
-=======
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
   background: none;
   border: none;
   color: var(--text-secondary);
   font-size: 11px;
-<<<<<<< HEAD
   font-weight: 500;
   gap: 4px;
   cursor: pointer;
@@ -888,18 +639,12 @@ body {
 .nav-item:hover {
   color: var(--accent-color);
   background-color: rgba(26, 115, 232, 0.05);
-=======
-  gap: 4px;
-  cursor: pointer;
-  width: 25%;
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
 
 .nav-item.active {
   color: var(--accent-color);
 }
 
-<<<<<<< HEAD
 .nav-item.active::after {
   content: '';
   position: absolute;
@@ -960,11 +705,4 @@ body {
 
 .password-card {
   animation: fadeIn 0.2s ease;
-=======
-/* Boş Durum */
-.empty-state {
-  text-align: center;
-  color: var(--text-secondary);
-  padding: 40px 20px;
->>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 }
