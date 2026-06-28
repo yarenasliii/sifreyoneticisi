@@ -1,15 +1,19 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+<<<<<<< HEAD
 import { Provider } from 'react-redux'
 import store from './store/store.js'
 
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+=======
+>>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
 import './index.css'
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+<<<<<<< HEAD
     <Provider store={store}>
       <ToastContainer
         position="bottom-center"
@@ -27,3 +31,8 @@ createRoot(document.getElementById('root')).render(
     </Provider>
   </StrictMode>,
 )
+=======
+    <App />
+  </StrictMode>,
+)
+>>>>>>> c9fead54b3cdf62368ab400d06cf5ce1ffb70f39
